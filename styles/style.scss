@@ -5,4 +5,35 @@ body{
     @include noMarginPadding;    
     box-sizing: border-box;    
     font-family: 'Roboto Slab', serif;    
+    background-image: $background-gradiant;
+}
+
+
+// **************************************************************************
+//                              Welcome Section
+.welcome-section{
+    color: beige;
+    animation-name: entrance;    
+    animation-duration: 1s;    
+    h1{
+        font-weight: 700;
+        text-align: center;    
+        span{
+            color: $cyan;
+        }    
+    }
+    em{
+        display: block;
+        text-align: center;
+    }
+    em::after{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+        content: "";
+        display: block;
+        width: 130px;
+        border-top: 3px solid $cyan;
+        border-radius: 3px;
+    }
 }
