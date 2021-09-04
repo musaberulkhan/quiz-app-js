@@ -1,0 +1,8 @@
+@import "partials/color";
+@import "partials/mixins";
+
+body{
+    @include noMarginPadding;    
+    box-sizing: border-box;    
+    font-family: 'Roboto Slab', serif;    
+}
