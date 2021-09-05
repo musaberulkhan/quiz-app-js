@@ -4,6 +4,17 @@
     overflow-x: hidden;    
   }
 
+
+@mixin imageButton() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 10px; 
+    border-radius: 5px;
+    &:hover{
+      cursor: pointer;
+    }  
+  }
 @keyframes entrance{
     0%   {transform: scale(0.7)}    
     100% {transform: scale(1)}

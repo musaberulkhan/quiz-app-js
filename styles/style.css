@@ -74,10 +74,10 @@ body {
 
 .languages-section .row .column {
   color: black;
+  padding: 10px;
 }
 
 .languages-section .row .column .img-text-button {
-  background-color: bisque;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,7 +87,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 30px;
+  padding: 18px 10px;
+  border-radius: 5px;
+}
+
+.languages-section .row .column .img-text-button:hover {
+  cursor: pointer;
 }
 
 .languages-section .row .column .img-text-button img {
@@ -97,7 +102,6 @@ body {
 }
 
 .languages-section .row .column .img-button {
-  background-color: bisque;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,7 +111,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100%;
+  padding: 18px 10px;
+  border-radius: 5px;
+}
+
+.languages-section .row .column .img-button:hover {
+  cursor: pointer;
 }
 
 .languages-section .row .column .img-button img {
@@ -129,5 +138,13 @@ body {
 
 .languages-section .row .column #java-btn {
   background-color: #ffbb93;
+}
+
+.question-section {
+  background-color: azure;
+}
+
+.question-section #question-close:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
